@@ -1,16 +1,13 @@
+import userData from './profile/user';
+import PropTypes from 'prop-types';
+import { ProfileElement } from './profile/ProfileElement';
+
+console.log(userData.username);
+
 export const App = () => {
-   return (
-      <div
-         style={{
-            height: '100vh',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            fontSize: 40,
-            color: '#010101',
-         }}
-      >
-         React first homework template
-      </div>
-   );
+   return <ProfileElement props={userData} />;
+};
+
+App.propTypes = {
+   props: PropTypes.object,
 };
