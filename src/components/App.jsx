@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 // --------
 import userData from './ProfileTask/user';
 import statisticData from './StatisticsTask/data';
-import friendsInfo from './FriendList/friends';
+import friendsInfo from './FriendListTask/friends';
 import transactionInfo from './TransactionHistoryTask/transactions';
 
 import { ProfileElement } from './ProfileTask/ProfileElement';
