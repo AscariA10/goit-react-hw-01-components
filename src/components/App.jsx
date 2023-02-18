@@ -5,10 +5,10 @@ import statisticData from './Statistics/data';
 import friendsInfo from './FriendList/friends';
 import transactionInfo from './TransactionHistory/transactions';
 
-import { ProfileElement } from './profile/ProfileElement';
-import { Statistics } from './statistics/Statistics';
-import { FriendList } from './friendList/FriendList';
-import { TransactionHistory } from './transactionHistory/TransactionHistory';
+import { ProfileElement } from './Profile/ProfileElement';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 console.log(userData.username);
 
