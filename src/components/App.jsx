@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 
-import userData from './profile/user';
-import statisticData from './statistics/data';
-import friendsInfo from './friendList/friends';
-import transactionInfo from './transactionHistory/transactions';
+import userData from './Profile/user';
+import statisticData from './Statistics/data';
+import friendsInfo from './FriendList/friends';
+import transactionInfo from './TransactionHistory/transactions';
 
-import { ProfileElement } from './profile/ProfileElement';
-import { Statistics } from './statistics/Statistics';
-import { FriendList } from './friendList/friendList';
-import { TransactionHistory } from './transactionHistory/TransactionHistory';
+import { ProfileElement } from './Profile/ProfileElement';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 console.log(userData.username);
 

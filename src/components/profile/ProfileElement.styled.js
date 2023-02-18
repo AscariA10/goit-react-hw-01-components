@@ -6,6 +6,7 @@ export const ProfileCard = styled.div`
    justify-content: space-between;
    margin-right: auto;
    margin-left: auto;
+   margin-bottom: 20px;
    padding: 10px;
    border: 10px dashed tomato;
    width: 330px;
