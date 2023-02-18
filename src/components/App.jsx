@@ -7,7 +7,7 @@ import transactionInfo from './TransactionHistoryTask/transactions';
 
 import { ProfileElement } from './ProfileTask/ProfileElement';
 import { Statistics } from './StatisticsTask/Statistics';
-import { FriendList } from './FriendList/FriendList';
+import { FriendList } from './FriendListTask/FriendList';
 import { TransactionHistory } from './TransactionHistoryTask/TransactionHistory';
 
 console.log(userData.username);
