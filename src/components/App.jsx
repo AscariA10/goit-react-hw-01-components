@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-
+// --------
 import userData from './Profile/user';
 import statisticData from './Statistics/data';
 import friendsInfo from './FriendList/friends';
